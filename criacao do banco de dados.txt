@@ -1,0 +1,9 @@
+CREATE DATABASE blog;
+use blog;
+
+create table usuarios(      
+id integer auto_incremento not null, 
+nome varchar(100) not null,    
+email varchar(100) not null,   
+senha varchar(32) not null 
+); 
